@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta charset="UTF-8">
+    <title>Drum</title>
+</head>
+<body>
+<center>
+    <p><button onclick="play1()"> <img src="red.png" width="50" height="50"></button>
+        <button onclick="play2()"> <img src="blue.jpg" width="50" height="50"></button>
+        <button onclick="play3()"> <img src="green.jpg" width="50" height="50"></button></p>
+    <p><button onclick="play4()"> <img src="green1.jpg" width="50" height="50"></button>
+        <button onclick="play5()"> <img src="red1.png" width="50" height="50"></button>
+        <button onclick="play6()"> <img src="blue1.jpg" width="50" height="50"></button></p>
+    <p><button onclick="play7()"> <img src="blue2.jpg" width="50" height="50"></button>
+        <button onclick="play8()"> <img src="green2.jpg" width="50" height="50"></button>
+        <button onclick="play9()"> <img src="red3.png" width="50" height="50"></button></p>
+</center>
+<audio id="1" src="1.mp3" ></audio>
+<audio id="2" src="2.mp3"></audio>
+<audio id="3" src="3.mp3"></audio>
+<audio id="4" src="4.mp3"></audio>
+<audio id="5" src="5.mp3"></audio>
+<audio id="6" src="6.mp3"></audio>
+<audio id="7" src="7.mp3"></audio>
+<audio id="8" src="8.mp3"></audio>
+<audio id="9" src="9.mp3"></audio>
+</body>
+<script>
+    function play1() {
+        document.getElementById('1').play()
+    }
+    function play2() {
+        document.getElementById('2').play()
+    }
+    function play3() {
+        document.getElementById('3').play()
+    }
+    function play4() {
+        document.getElementById('4').play()
+    }
+    function play5() {
+        document.getElementById('5').play()
+    }
+    function play6() {
+        document.getElementById('6').play()
+    }
+    function play7() {
+        document.getElementById('7').play()
+    }
+    function play8() {
+        document.getElementById('8').play()
+    }
+    function play9() {
+        document.getElementById('9').play()
+    }
+
+</script>
+</html>
